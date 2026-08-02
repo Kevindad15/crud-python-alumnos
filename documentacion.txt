@@ -1,0 +1,7 @@
+1. crear rama
+2. modificar proyecto
+3. commit
+4. push
+5. crear pull request
+6. revisar cambios
+7. merge

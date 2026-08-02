@@ -20,7 +20,7 @@ def listar_alumnos(alumnos):
         return
 
     print("====================")
-    print("Lista de alumnos:")
+    print("Listado completo de alumnos:")
     print("====================")
     for i, alumno in enumerate(alumnos, start=1):
         print(f"{i}. Nombre: {alumno['nombre']}, Edad: {alumno['edad']}, Carrera: {alumno['carrera']}")
