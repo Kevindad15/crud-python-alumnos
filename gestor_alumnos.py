@@ -88,6 +88,8 @@ def cargar_alumnos():
 
     return alumnos
 
+print("Se agrega nuevo texto de prueba para ver si funciona el commit y push")
+
 alumnos = cargar_alumnos()
 opcion = 0
 while opcion != 6:
