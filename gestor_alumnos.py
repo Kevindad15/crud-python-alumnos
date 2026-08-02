@@ -19,7 +19,9 @@ def listar_alumnos(alumnos):
         print("No hay alumnos registrados.")
         return
 
+    print("====================")
     print("Lista de alumnos:")
+    print("====================")
     for i, alumno in enumerate(alumnos, start=1):
         print(f"{i}. Nombre: {alumno['nombre']}, Edad: {alumno['edad']}, Carrera: {alumno['carrera']}")
         print("--------------------------------------------------")
